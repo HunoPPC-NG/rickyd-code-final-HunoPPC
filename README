@@ -1,0 +1,69 @@
+RickyD - Another Rick Dangerous clone
+=====================================
+
+Introduction
+------------
+
+Rick Dangerous was one of my favorite games for the spectrum (and Amiga), 
+it already has a very good clone (xrick), but it lacks the ability to easily
+create new maps and enhance the graphics since they are built in the code itself.
+RickyD uses xml extensively to configure all aspects of the game, from objects
+to tiles and sound, maps are also written in xml, so they can be easily edited.
+Creating completely new maps is very easy, just create a new tileset and use a 
+tool like tiled to put everything together.
+
+ 
+Dependencies
+------------
+
+RickyD uses the brand new SDL 2.0 and the matching libraries:
+ SDL2_image, SDL2_mixer and SDL2_ttf.
+ 
+You can get SDL 2.0 source packages from here: http://www.libsdl.org/hg.php
+
+the libraries are also available through hg: http://hg.libsdl.org/
+
+
+
+For Ubuntu Users:
+
+ pre-built packages are available from my testing ppa:
+	https://launchpad.net/~pj-assis/+archive/testing
+
+For Windows Users:
+ pre-built mingwin packages are available in the project Downloads section at sourceforge.
+
+
+Building
+--------
+
+The recommended way:
+ 1 - install all dependencies
+ 2 - cd into the source root dir
+ 3 - Generate the configure script: ./bootstrap.sh
+ 4 - Clean up the source root dir: make distclean
+ 5 - Create the build dir: mkdir build
+ 6 - cd build
+ 7 - ./configure --prefix=/install/path
+ 8 - make && make install
+ 
+ For mingwin users:
+ 
+ the data path will be relative to the bin dir, so no use in setting
+ a different data dir.
+ For debugging in mingwin you should also set --enable-mingw-console
+ this will enable console output.
+ 
+
+Modding
+-------
+
+ The extensive use of xml, enables for easy modding of the game.
+ global object attributes are stored in rick1_global.xml and
+ each level file path is defined in levels.xml.
+ for custom levels just add them accordingly in levels.xml.
+ submaps can be created very easy with a tool like "Tiled"
+ just add the tile layers (walls, stairs, platform, decor, ...), add the 
+ tiles image and build your map, then export to lua and copy paste the layers
+ array into a rickyD xml submap. Add the objects and you are done.
+ 

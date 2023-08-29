@@ -1,0 +1,263 @@
+# HunoJoyWrapper Version 2.0.0, file Config by HunoPPC 2012
+
+# Use resolution 640x480 or 320x240 for the logo, IMPORTANT: choose a good resolution please.
+# 0 320x240 
+# 1 640x480  (default)
+LOGO 1
+
+# Use HATS on joystick, IMPORTANT: If you enable HATS you must disable the AXES, don't activate both simultaneously.
+# 0 disable 
+# 1 enable  (default)
+HATS 0
+
+# Use AXES on joystick, IMPORTANT: If you enable AXES you must disable the HATS, don't activate both simultaneously.
+# 0 disable (default)
+# 1 enable  
+AXES 1
+
+# Inverter RIGHT Signed integer on joystick1 Axis 2
+# 0 disable (default)
+# 1 enable  
+INVERTERJ1 0
+
+# Inverter RIGHT Signed integer on joystick2 Axis 2
+# 0 disable (default)
+# 1 enable  
+INVERTERJ2 0
+
+#Driver Joystick 1 ID
+DriverJoystick1ID 0
+
+# Driver Name of joystick1
+Joy1DriverName : Generic Driver for HunoJoyWrapper
+
+#Driver Joystick 2 ID
+DriverJoystick2ID 0
+
+# Driver Name of joystick2
+Joy2DriverName : Generic Driver for HunoJoyWrapper
+
+# LEFT Signed integer on joystick1
+# -32768 to 32767
+Joy1SignedIntegerLEFT -8000
+
+# RIGHT Signed integer on joystick1
+# -32768 to 32767
+Joy1SignedIntegerRIGHT 8000
+
+# UP Signed integer on joystick1
+# -32768 to 32767
+Joy1SignedIntegerUP -8000
+
+# DOWN Signed integer on joystick1
+# -32768 to 32767
+Joy1SignedIntegerDOWN 8000
+
+# LEFT Signed integer on joystick1 Axis 2
+# -32768 to 32767
+Joy1SignedIntegerLEFTaxis2 -8000
+
+# RIGHT Signed integer on joystick1 Axis 2
+# -32768 to 32767
+Joy1SignedIntegerRIGHTaxis2 8000
+
+# UP Signed integer on joystick1 Axis 2
+# -32768 to 32767
+Joy1SignedIntegerUPaxis2 -8000
+
+# DOWN Signed integer on joystick1 Axis 2
+# -32768 to 32767
+Joy1SignedIntegerDOWNaxis2 8000
+
+# BUTTON 0 on joystick1
+# Button 0 (default)
+Joy1Button0 8
+
+# BUTTON 1 on joystick1
+# Button 1 (default)
+Joy1Button1 9
+
+# BUTTON 2 on joystick1
+# Button 2 (default)
+Joy1Button2 6
+
+# BUTTON 3 on joystick1
+# Button 3 (default)
+Joy1Button3 4
+
+# BUTTON 4 on joystick1
+# Button 4 (default)
+Joy1Button4 3
+
+# BUTTON 5 on joystick1
+# Button 5 (default)
+Joy1Button5 2
+
+# BUTTON 6 on joystick1
+# Button 6 (default)
+Joy1Button6 0
+
+# BUTTON 7 on joystick1
+# Button 7 (default)
+Joy1Button7 1
+
+# BUTTON 8 on joystick1
+# Button 8 (default)
+Joy1Button8 7
+
+# BUTTON 9 on joystick1
+# Button 9 (default)
+Joy1Button9 5
+
+# BUTTON 10 on joystick1
+# Button 10 (default)
+Joy1Button10 10
+
+# BUTTON 11 on joystick1
+# Button 11 (default)
+Joy1Button11 11
+
+# BUTTON 12 on joystick1
+# Button 12 (default)
+Joy1Button12 12
+
+# BUTTON 13 on joystick1
+# Button 13 (default)
+Joy1Button13 13
+
+# BUTTON 14 on joystick1
+# Button 14 (default)
+Joy1Button14 14
+
+# BUTTON 15 on joystick1
+# Button 15 (default)
+Joy1Button15 15
+
+# BUTTON 16 on joystick1
+# Button 16 (default)
+Joy1Button16 16
+
+# BUTTON 17 on joystick1
+# Button 17 (default)
+Joy1Button17 17
+
+# BUTTON 18 on joystick1
+# Button 18 (default)
+Joy1Button18 18
+
+# BUTTON 19 on joystick1
+# Button 19 (default)
+Joy1Button19 19
+
+# LEFT Signed integer on joystick2
+# -32768 to 32767
+Joy2SignedIntegerLEFT -8000
+
+# RIGHT Signed integer on joystick2
+# -32768 to 32767
+Joy2SignedIntegerRIGHT 8000
+
+# UP Signed integer on joystick2
+# -32768 to 32767
+Joy2SignedIntegerUP -8000
+
+# DOWN Signed integer on joystick2
+# -32768 to 32767
+Joy2SignedIntegerDOWN 8000
+
+# LEFT Signed integer on joystick2 Axis 2
+# -32768 to 32767
+Joy2SignedIntegerLEFTaxis2 -8000
+
+# RIGHT Signed integer on joystick2 Axis 2
+# -32768 to 32767
+Joy2SignedIntegerRIGHTaxis2 8000
+
+# UP Signed integer on joystick2 Axis 2
+# -32768 to 32767
+Joy2SignedIntegerUPaxis2 -8000
+
+# DOWN Signed integer on joystick2 Axis 2
+# -32768 to 32767
+Joy2SignedIntegerDOWNaxis2 8000
+
+# BUTTON 0 on joystick2
+# Button 0 (default)
+Joy2Button0 8
+
+# BUTTON 1 on joystick2
+# Button 1 (default)
+Joy2Button1 9
+
+# BUTTON 2 on joystick2
+# Button 2 (default)
+Joy2Button2 6
+
+# BUTTON 3 on joystick2
+# Button 3 (default)
+Joy2Button3 4
+
+# BUTTON 4 on joystick2
+# Button 4 (default)
+Joy2Button4 3
+
+# BUTTON 5 on joystick2
+# Button 5 (default)
+Joy2Button5 2
+
+# BUTTON 6 on joystick2
+# Button 6 (default)
+Joy2Button6 0
+
+# BUTTON 7 on joystick2
+# Button 7 (default)
+Joy2Button7 1
+
+# BUTTON 8 on joystick2
+# Button 8 (default)
+Joy2Button8 7
+
+# BUTTON 9 on joystick2
+# Button 9 (default)
+Joy2Button9 5
+
+# BUTTON 10 on joystick2
+# Button 10 (default)
+Joy2Button10 10
+
+# BUTTON 11 on joystick2
+# Button 11 (default)
+Joy2Button11 11
+
+# BUTTON 12 on joystick2
+# Button 12 (default)
+Joy2Button12 12
+
+# BUTTON 13 on joystick2
+# Button 13 (default)
+Joy2Button13 13
+
+# BUTTON 14 on joystick2
+# Button 14 (default)
+Joy2Button14 14
+
+# BUTTON 15 on joystick2
+# Button 15 (default)
+Joy2Button15 15
+
+# BUTTON 16 on joystick2
+# Button 16 (default)
+Joy2Button16 16
+
+# BUTTON 17 on joystick2
+# Button 17 (default)
+Joy2Button17 17
+
+# BUTTON 18 on joystick2
+# Button 18 (default)
+Joy2Button18 18
+
+# BUTTON 19 on joystick2
+# Button 19 (default)
+Joy2Button19 19
+

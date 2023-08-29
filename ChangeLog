@@ -1,0 +1,14 @@
+rickyd (0.2.0)
+
+    * Improve GUI Objects (combobox, button, inputbox)
+    * Use base classes for game objects with identical behaviour
+    * load general config file from level file
+    * Add first level (hyde park) from Rick Dangerous 2
+
+ -- Paulo Assis <pj.assis@gmail.com>  Fri, 22 Mar 2013 11:15:00 +0000
+
+rickyd (0.1.0)
+
+    * Initial release (includes all maps from Rick Dangerous 1)
+
+ -- Paulo Assis <pj.assis@gmail.com>  Wed, 10 Dec 2012 10:00:00 +0000
