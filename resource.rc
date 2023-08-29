@@ -1,0 +1,24 @@
+ID ICON "../data/ricky.ico"
+1 VERSIONINFO
+FILEVERSION     0,1,0,0
+PRODUCTVERSION  0,1,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "developed by Paulo Assis"
+      VALUE "FileDescription", "Rickyd"
+      VALUE "FileVersion", "0.1"
+      VALUE "InternalName", "ricky"
+      VALUE "LegalCopyright", "Licensed under GPL v.2 or later"
+      VALUE "OriginalFilename", "ricky.exe"
+      VALUE "ProductName", "RickyD"
+      VALUE "ProductVersion", "0.1 AmigaOS4 by HunoPPC"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252
+  END
+END
